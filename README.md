@@ -1,4 +1,4 @@
-# xdamon
+# xdaemon
 
 兼容Windows/Linux的自守护和后台运行库. 
 
