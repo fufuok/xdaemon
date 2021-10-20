@@ -11,7 +11,7 @@ A library for writing system daemons in golang.
 
 ## 1.纯后台进程模式
 
-请参考 example/background.go
+请参考 examples/background
 
 ```go
 //本示例, 将把进程转为后台运行, 并保留所有参数不变
@@ -44,7 +44,7 @@ func main() {
 - 支持最大重启次数等一些参数的设置
 - 最终系统中会存在两个进程:守护进程和最终子进程
 
-请参考 example/auto_restart.go
+请参考 examples/auto_restart
 ```go
 //本示例, 将把进程转为后台运行, 并保留所有参数不变
 package main
